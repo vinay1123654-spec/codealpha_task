@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <div class="left-half">
+            <div class="logo"><i class="fa-brands fa-spotify"></i></div>
+            <div class="home-icon"><i class="fa-solid fa-house"></i></div>
+            <div class="search-bar">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <input type="text" id="searchSong" class="input-box" placeholder="what do you want to play">
+                <div class="browse"><i class="fa-solid fa-folder"></i></div>
+            </div>
+        </div>
+        <div class="right-half">
+            <div class="right-half-p1">
+                <p class="nav-text">Premimum</p>
+                <p class="nav-text">Support</p>
+                <p class="nav-text">download</p>
+            </div>
+            <div class="right-half-p2">
+                <div class="nav-text">
+                    <i class="fa-sharp fa-solid fa-arrow-down-to-bracket"></i>
+                    Install App
+                </div>
+                <div class="nav-text"></div>
+                <button class="login-btn">Log-in</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main-left-part -->
+    <div class="main">
+        <div class="main-left-part">
+            <div class="library">
+               <p>Your library</p>
+               <div >+</div>
+            </div>
+        <div class="box-container">
+            <div class="box">
+                <h4> Create your playlist</h4>
+                <p>it's easy we'll  help you</p>
+                <button>Create playlist</button>
+            </div>
+            <div class="box">
+                <h4> Let's find some podcast to follow</h4>
+                <p>We'll keep you updated on new updates</p>
+                <button>Browse podcasts</button>
+
+            </div>
+        </div>
+        </div>
+        <div class="main-right-part">
+            <div class="music-section">
+                <h2>Popular Song</h2>
+                <div class="songs">
+                    <div class="music-card">
+                        <img src="imagemusic/1pic.webp" alt="">
+                        <div class="music-play-btn"><i id="1" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/2pic.webp" alt="">
+                        <div class="music-play-btn"><i id="2" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/3pic.webp" alt="">
+                        <div class="music-play-btn"><i id="3" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/4pic.webp" alt="">
+                        <div class="music-play-btn"><i id="4" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/5pic.webp" alt="">
+                        <div class="music-play-btn"><i id="5" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/6pic.webp" alt="">
+                        <div class="music-play-btn"><i id="6" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/7pic.webp" alt="">
+                        <div class="music-play-btn"><i id="7" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/8pic.webp" alt="">
+                        <div class="music-play-btn"><i id="8" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+            </div>
+
+            <div class="music-section">
+                <h2>Popular Song</h2>
+                <div class="songs">
+                    <div class="music-card">
+                        <img src="imagemusic/9pic.webp" alt="">
+                        <div class="music-play-btn"><i id="9" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/10pic.webp" alt="">
+                        <div class="music-play-btn"><i id="10" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/11pic.webp" alt="">
+                        <div class="music-play-btn"><i id="11" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/12pic.webp" alt="">
+                        <div class="music-play-btn"><i id="12" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/13pic.webp" alt="">
+                        <div class="music-play-btn"><i id="13" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/14pic.webp" alt="">
+                        <div class="music-play-btn"><i id="14" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/15pic.webp" alt="">
+                        <div class="music-play-btn"><i id="15" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/16pic.webp" alt="">
+                        <div class="music-play-btn"><i id="16" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+            </div>
+
+            <div class="music-section">
+                <h2>Popular Song</h2>
+                <div class="songs">
+                    <div class="music-card">
+                        <img src="imagemusic/17pic.webp" alt="">
+                        <div class="music-play-btn"><i id="17" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/18pic.webp" alt="">
+                        <div class="music-play-btn"><i id="18" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/19pic.webp" alt="">
+                        <div class="music-play-btn"><i id="19" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/20pic.webp" alt="">
+                        <div class="music-play-btn"><i id="20" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/21pic.webp" alt="">
+                        <div class="music-play-btn"><i id="21" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/22pic.webp" alt="">
+                        <div class="music-play-btn"><i id="22" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/23pic.webp" alt="">
+                        <div class="music-play-btn"><i id="23" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="imagemusic/24pic.webp" alt="">
+                        <div class="music-play-btn"><i id="24" class=" playMusic fa-sharp fa-solid fa-circle-play"></i></div>
+                        <div class="image-title">Title</div>
+                        <div class="img-description">description for our music </div>
+                    </div>
+
+            
+                </div>    
+            </div>
+        </div>
+    
+    </div>
+
+    <!-- player -->
+
+    <div class="player-bar">
+        <div class="now-bar">
+            <img src="imagemusic/2pic.webp" alt="">
+            <div>
+                <div class="img-title-info">Title 1</div>
+                <div class="img-des-info">this is discription for title</div>
+            </div>
+        </div>
+
+        <div class="music-controller">
+             <div class="player">
+                <div><i id="shuffle" class="player-btn fa-solid fa-shuffle"></i></div>
+                <div><i id="backward" class="player-btn fa-solid fa-backward-step"></i></div>
+                <div><i id="play" class="player-btn fa-solid fa-circle-play"></i></div>
+                <div><i id="forward" class="player-btn fa-solid fa-forward-step"></i></div>
+                <div><i id="repeat" class="player-btn fa-solid fa-repeat"></i></div>
+             </div>
+             <div class="progress">
+                <span id="currentTime">0:00</span>
+                <input type="range" id="progressbar" min="0" max="100" value="0">
+                <span id="duration">0:00</span>
+             </div>
+        </div>
+        <div class="volume-control">
+            <i id="volumeIcon" class="fa-solid fa-volume-high"></i>
+            <input type="range" id="volume" min="0" max="100" value="50">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
